@@ -6,16 +6,53 @@
     <title>个人主页</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            background-image: url('your-background-image.jpg'); /* 替换 'your-background-image.jpg' 为你的背景图像文件路径 */
-            background-size: cover; /* 以尽可能充满整个屏幕 */
-            background-attachment: fixed; /* 固定背景图像，不随页面滚动 */
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .profile-img {
             border-radius: 50%;
             width: 200px;
             height: 200px;
+            margin: 0 auto 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -25,11 +62,10 @@
     </header>
     <main>
         <img class="profile-img" src="your-profile-image.jpg" alt="个人照片">
-        <p>你的简介，可以包括一些关于你的信息，兴趣爱好等。</p>
+        <p>你的简介，可以包括一些关于你的学术背景、研究兴趣等信息。</p>
         <p>联系信息：<a href="mailto:your.email@example.com">你的邮箱</a></p>
     </main>
     <footer>
-        <h3>社交媒体链接</h3>
         <ul>
             <li><a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn</a></li>
             <li><a href="https://twitter.com/your-twitter-profile">Twitter</a></li>
