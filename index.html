@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RadiantWu(吴，炜)</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+div.img {  
+    border: 0px solid #ccc;
+    overflow: hidden;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    overflow: hidden; 
+}
+
+div.img img {
+  margin-right: 10%;
+  height: auto;
+  width: 25%;
+	float: right;
+  
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+a {  
+  color: rgb(255, 0, 102);  
+}  
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 900px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Radiant Wu</h1>
+  <p>吴，炜 I think "炜(wei)" should be translated as radiant </p>
+</div>
+
+<div class="topnav">
+  <a href="radiantwu.com">Page</a>
+  <a href="https://github.com/radiantwu">Github</a>
+  <a href="#">Twitter</a>
+  <a href="#" style="float:right">CV</a>
+</div>
+
+<div class="row" style="width:70%;margin-left: auto;margin-right: auto; ">
+  <div class="leftcolumn">
+    <div class="card"> 
+      <h1>Education Experience</h1>
+      <div class="img">
+        <img src="sanbiao1.png" alt="Pacemaker to merit student" >
+        <p style = "font-size: large;">
+        <b>Ph.D. 2024.7-?</b><br />
+        <a href="https://future.pku.edu.cn/ky/zxhjg/swyxdsjyrgznx/800c59fa44234a41bb72e494009f638e.htm">BDBA</a>, 
+        <a href="https://future.pku.edu.cn/">College of Future Technology</a>, 
+        <a href="https://www.pku.edu.cn/">Peking University(PKU)</a><br />
+        <i>Major in Biomedical Engineering</i><br />
+        Beijing, China <br /> 
+        <b>Intern 2023.3-2023.7</b> <br />
+        <a href="https://idm.pku.edu.cn/">NELVT</a>, 
+        <a href="https://cs.pku.edu.cn/">School of Computer Science</a>, 
+        <a href="https://www.pku.edu.cn/">Peking University(PKU)</a> <br />
+        Beijing, China<br />
+        <b>B.S. 2020.9-2024.7</b>  <i>Biomedical Engineering</i><br />
+        <a href="http://ses.hust.edu.cn/xygk.htm">School of Engineering Sciences</a>, 
+        <a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology(HUST)</a> <br />
+        <i>Major in Biomedical Engineering</i><br />
+        Wuhan, China<br />
+        E-mail: <a href="mailto:radiantwu@163.com">radiantwu@163.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <h1>About Me</h1>
+      <p style = "font-size: large;">I'll receive the B.S. degree at HUST, working with Prof. <a href="http://bmp.hust.edu.cn/info/1153/1391.htm">Shangbin Chen</a>.<br />
+        I am currently engaged in research work at BDBA, PKU, working with Prof. <a href="https://www.wangjinzhuo.com/">Jinzhuo Wang</a>.<br />
+        I had a four month internship experience at CS, PKU, working with Prof. <a href="https://www.shanghangzhang.com/">Shanghang Zhang</a>.<br />
+        I focus on using Machine Learning to solve practical problems, especially in the field of biomedicine.</p>
+    </div>
+    <div class="card">
+      <h1>Award</h1>
+      <p style = "font-size: large;">
+        The Interdisciplinary Contest in Modeling (ICM) <b> Finalist</b><br /><br />
+      Pacemaker to Merit Student <b> Undergraduate Highest Honor</b><br />
+      <a href="https://mp.weixin.qq.com/s/VUXk93LI-Yz2FDGMq2OccA">Relevant WeChat Official Account Posts</a><br /><br />
+      National Scholarship<br /><br />
+      Outstanding Undergraduates in Term of Academic Performance, HUST<br />
+      <a href="https://mp.weixin.qq.com/s/M-In4pO0GruPDEG8Bh41mQ">Relevant WeChat Official Account Posts</a>
+    </div>
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h1>Contact</h1>
+      <p style = "font-size: large;">
+      <b>E-mail:</b><br />
+       radiantwu [at] 163 [dot] com <a href="mailto:radiant@163.com">radiant@163.com</a><br />
+      <b>Wechat:</b><br />
+      WeiRadiantWu<br />
+      <b>Address:</b><br />
+      Peking University, No.5 Yiheyuan Rd., Beijing, China
+      </p>
+      
+    </div>
+    <div class="card">
+      <h3>Blog</h3>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>底部区域</h2>
+</div>
+
+</body>
+</html>
